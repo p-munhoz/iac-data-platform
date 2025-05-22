@@ -1,0 +1,23 @@
+# Terraform
+terraform.tfstate
+terraform.tfstate.*
+.terraform.lock.hcl
+.terraform/
+terraform/*.tfstate*
+*.tfvars
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data & Temporary Files
+data/warehouse.duckdb
+data/temp_sample.csv
+scripts/downloaded.csv
+
+# OS / IDE specific
+.DS_Store
+.idea/
+.vscode/
