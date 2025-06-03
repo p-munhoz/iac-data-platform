@@ -4,7 +4,7 @@ This project is a **mock data platform** built entirely with **Terraform and Doc
 
 It showcases core data engineering skills: infrastructure as code, orchestration, storage, event-driven compute, and transformations.
 
-This repository contains the example code and documentation referenced in the article [Building a Local Data Platform with Terraform and Docker](https://p-munhoz.github.io/blog/building-local-data-platform-terraform-docker)
+This repository contains the example code and documentation referenced in the article [Building a Local Data Platform with Terraform and Docker](https://blog.pmunhoz.com/data-engineering/building-local-data-platform-terraform-docker)
 
 ---
 
