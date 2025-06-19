@@ -51,3 +51,12 @@ module "localstack" {
     docker = docker
   }
 }
+
+resource "docker_image" "etl_transform" {
+  name = "etl-transform"
+  
+  build {
+    context    = "../"
+    dockerfile = "scripts/Dockerfile.etl"
+  }
+}
